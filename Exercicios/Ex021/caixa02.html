@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style> 
+        body{
+            background-color: rgb(125, 130, 134);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.493);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.352);
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(135, 135, 135);
+            text-align: center;
+            padding: 1px;
+        }
+       aside > p{
+            margin: 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article > p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ARTIGOS</a>
+            <a href="#">NOTÍCIAS</a>
+            <a href="#">ESPORTE</a>
+            <a href="#">TENDECIAS</a>
+        </nav>
+    </header>
+    <main>
+        <section id="esporto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error vel laboriosam necessitatibus assumenda illo deleniti commodi, obcaecati totam impedit, consequuntur quam quo ab vero rerum eveniet soluta velit quas? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime qui quidem quibusdam voluptates praesentium tenetur earum odit voluptatum rem soluta. Est sapiente, fugit consectetur quisquam aliquid totam doloribus repudiandae laudantium?</p>
+                <aside>
+                <p>Escrito por XXXX</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Mário Negrão</p>
+    </footer>
+
+</body>
+</html>

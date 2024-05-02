@@ -1,0 +1,16 @@
+@charset "UTF-8";
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(82, 82, 252);
+}
+a:active{
+    color: darkred;
+}
+a:hover > img{
+    background-color: rgba(164, 203, 203, 0.662);
+    border-radius: 25px;
+}

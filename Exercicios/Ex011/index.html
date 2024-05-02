@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mideas em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tenet abrir este site em outro disposotivo ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1070px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproducindo aúdio</audio></h1>
+    <audio src="Midea/16-Hope.mp3" controls autoplay></audio>
+    <p>Outra forma de carraegar o aúdio e com loop</p>
+    <audio controls loop>
+        <source src="Midea/16-Hope.mp3" type="audio/mpeg">
+        <source src="Midea/16-Hope.ogg" type="audio/ogg">
+        <source src="Midea/16-Hope.wav" type="audio/wav">
+        <p>Infelizmente o navegador não consegue reproduzir o aúdio <a href="Midea/16-Hope.mp3">clique aqui para baixar.</a></p>
+    </audio><!--Dessa forma o navegador vai procurar sequencialmente um ficheiro que for compativel com ele e carrega-lo se algum desses ficheiros acima for compativel-->
+</body>
+</html>
