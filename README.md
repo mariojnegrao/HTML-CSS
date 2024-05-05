@@ -42,7 +42,7 @@
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009/index.html">d009</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2/index.html">d009V2</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2.1/index.html">d009V2.1</a></li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010/index.html"><d010/a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010/index.html">d010/a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010V2/android.html">d010V2</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d011/index.html">d011</a></li>
  </ol>
