@@ -5,7 +5,7 @@
  
     Links dos exercicios
  
- <ol>  
+ <ol type="I">  
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Exercicios/Ex001/index.html">Ex001</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Exercicios/Ex002-3/index.html">Ex002-3</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Exercicios/Ex004/index.html">Ex004</a></li>
@@ -31,7 +31,7 @@
 
     Links dos desafios
 
- <ol>
+ <ol type="I">
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d001/index.html">d001</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d002/index.html">d002</a></li>
     <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d003/index.html">d003</a></li>
