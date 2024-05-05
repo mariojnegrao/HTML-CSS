@@ -32,17 +32,17 @@
     Links dos desafios
 
  <ol>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d001/index.html"></a>d001</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d002/index.html"></a>d002</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d003/index.html"></a>d003</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d005/index.html"></a>d005</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d006/index.html"></a>d006</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d007/index.html"></a>d007</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d008/index.html"></a>d008</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009/index.html"></a>d009</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2/index.html"></a>d009V2</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2.1/index.html"></a>d009V2.1</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010/index.html"></a>d010</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010V2/android.html"></a>d010V2</li>
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d011/index.html"></a>d011</li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d001/index.html">d001</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d002/index.html">d002</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d003/index.html">d003</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d005/index.html">d005</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d006/index.html">d006</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d007/index.html">d007</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d008/index.html">d008</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009/index.html">d009</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2/index.html">d009V2</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d009V2.1/index.html">d009V2.1</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010/index.html"><d010/a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d010V2/android.html">d010V2</a></li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Desafios/d011/index.html">d011</a></li>
  </ol>
