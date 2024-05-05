@@ -7,21 +7,28 @@
     <style>
         body{
             height: 100vh;
-            background-color: rgba(13, 13, 99, 0.58);
+            background-color: rgba(18, 66, 126, 0.58);
             background-image: url("espaco.jpg");
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
         }
-        picture{
-            
+        div{
+            height: 99vh;
+            position: relative;
+        }
+        div > img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <picture>
+    <div>
         <img src="astronauta.png" alt="astronauta">
-    </picture>
+    </div>
 </body>
 </html>
