@@ -6,5 +6,5 @@
     Links dos exercicios
  
  <ul>  
-    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Exercicios/Ex001/index.html"></a>Ex01</li>
+    <li><a href="https://mariojnegrao.github.io/HTML-CSS/Exercicios/Ex001/index.html">Ex01</a></li>
  </ul>
