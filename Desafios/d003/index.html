@@ -5,21 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Mapa Mundi</title>
+    <style>
+        body{
+            background-image: linear-gradient(20deg, #FF9D56 ,#FFFF3F ,#8FCA4A );
+            background-attachment: fixed;
+        }
+        main{
+            background-color: #00bfffac;
+            margin: auto;
+            min-width: 290px;
+            max-width: 460px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px 0px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Desafio do Mapa</h1>
-    <hr>
-    <P>Abaixo Esta o mapa mundo.</P>
-    <img src="imagens/mapa01.png" alt="">
-    <img src="imagens/mapa02.png" alt="">
-    <img src="imagens/mapa03.png" alt="">
-    <br>
-    <img src="imagens/mapa04.png" alt="">
-    <img src="imagens/mapa05.png" alt="">
-    <img src="imagens/mapa06.png" alt="">
-    <br>
-    <img src="imagens/mapa07.png" alt="">
-    <img src="imagens/mapa08.png" alt="">
-    <img src="imagens/mapa09.png" alt="">
+    <main>
+        <h1>Desafio do Mapa</h1>
+        <hr>
+        <P><strong>Abaixo Está o mapa mundo.</strong></P>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa01-90.png">
+            <img src="imagens/mapa01.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa02-90.png">
+            <img src="imagens/mapa02.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa03-90.png">
+            <img src="imagens/mapa03.png" alt="">
+        </picture>
+        <br>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa04-90.png">
+            <img src="imagens/mapa04.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa06-90.png">
+            <img src="imagens/mapa05.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa06-90.png">
+            <img src="imagens/mapa06.png" alt="">
+        </picture>
+        <br>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa07-90.png">
+            <img src="imagens/mapa07.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa08-90.png">
+            <img src="imagens/mapa08.png" alt="">
+        </picture>
+        <picture>
+            <source media="(max-width: 510px)" srcset="imagens/mapa09-90.png">
+            <img src="imagens/mapa09.png" alt="">
+        </picture>
+    </main>
 </body>
 </html>
