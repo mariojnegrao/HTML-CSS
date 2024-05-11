@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+:root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Poetsen One",cursive;
+    --font03: "Merienda", cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html, body{
+    font-family: var(--font01);
     min-height: 100vh;
     background-color: darkgrey;
 }
@@ -15,8 +27,10 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: var(--font02);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 7vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -33,22 +47,29 @@ a:active{
     color: darkgrey;
 }
 section{
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
 }
+section p{
+    font-family: var(--font03);
+    font-weight: bolder;
+}
 section.normal{
     background-color: white;
     color: black;
+    font-size: 3vw;
 }
 section.imagem{
     background-color: rgb(72, 72, 72);
     color: white;
 }
 section.imagem > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.132);
-    width: 350px;
+    padding: 5px;
 }
 footer{
     color: white;
