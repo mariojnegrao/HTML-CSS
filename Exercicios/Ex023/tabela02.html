@@ -11,6 +11,12 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(82, 82, 82);
         }
         th,td{
             border: 1px solid black;
@@ -20,8 +26,11 @@
             text-align: right;
         }
         thead,tfoot{
-            background-color: darkgrey;
+            background-color: rgb(82, 82, 82);
             color: white;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: darkgray;
         }
         caption{
             font-size: 1.3em;
@@ -48,8 +57,8 @@
     <table>
         <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População (2022)</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 140px;">População (2022)</th>
         </thead>
         <tbody>
             <tr>
@@ -138,7 +147,7 @@
             </tr>   
         </tbody>
         <tfoot>
-            <th> Total de Habitantes</th>
+            <th scope="row"> Total de Habitantes</th>
             <td class="num"><strong>189 540 813</strong></td>
         </tfoot>
     </table>
