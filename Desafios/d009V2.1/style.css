@@ -14,3 +14,7 @@ a:hover > img{
     background-color: rgba(164, 203, 203, 0.662);
     border-radius: 25px;
 }
+iframe{
+    width: 85vw;
+    height: 65vh;
+}
