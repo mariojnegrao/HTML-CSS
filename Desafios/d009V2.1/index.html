@@ -11,12 +11,16 @@
             background-attachment: fixed;
             text-align: center;
         }
-        h1{
-            color: azure;
+        h1{ 
             font-family: Georgia, 'Times New Roman', Times, serif;
             padding-top: 25px;
             padding-bottom: 25px;
-            text-shadow:2px 2px 1px #b79cf790;
+            text-shadow:2px 2px 2px #0000005a;
+
+            background-image: url("imagens/7mz-200.jpg");
+            background-size: contain;
+            color: transparent;
+            background-clip: text;
         }
         a:hover > img{
             box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.703);
@@ -25,15 +29,37 @@
             border: 1.5px black;
             border-style: solid;
         }
+        img{
+            filter: grayscale(80%);
+            transition-duration: 1s;
+        }
+        img:hover{
+            transition-duration: 0.5s;
+            filter: grayscale(0%);
+        }
+        #white{
+            filter: grayscale(100%);
+            filter: brightness(50%);
+        }
+        #white:hover{
+            filter: brightness(100%);
+        }
+        div{
+            margin: auto;
+            width: 410px;
+            overflow-x: scroll, hidden;
+        }
     </style>
 </head>
 <body>
     
-    <h1 > VIDEOS PARA ASSISITR </h1>
-    <a href="mhrap.html" alt="Mhrap"><img src="imagens/mhrap-200.jpeg" alt="Mhrap"></a>
-    <a href="voicemakers.html"><img src="imagens/voice makers-200.jpg" alt="voice makers"></a>
-    <br>
-    <a href="7mz.html"><img src="imagens/7mz-200.jpg" alt="7mz"></a>
-    <a href="tarp.html"><img src="imagens/Trap.png" alt="Trap"></a>
+    <h1 >MEUS VIDEOS</h1>
+    <div>
+        <a href="mhrap.html" alt="Mhrap"><img src="imagens/mhrap-200.jpeg" alt="Mhrap"></a>
+        <a href="voicemakers.html"><img src="imagens/voice makers-200.jpg" alt="voice makers" id="white"></a>
+        <br>
+        <a href="7mz.html"><img src="imagens/7mz-200.jpg" alt="7mz"></a>
+        <a href="tarp.html"><img id="white" src="imagens/Trap.png" alt="Trap"></a>
+    </div>
 </body>
 </html>
