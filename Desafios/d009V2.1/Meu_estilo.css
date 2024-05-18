@@ -6,12 +6,13 @@ body{
     text-align: center;
 }
 h1{ 
+    font-size: 3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 25px;
     padding-bottom: 25px;
     text-shadow:2px 2px 2px #0000005a;
 
-    background-image: url("imagens/7mz-200.jpg");
+    background-image: linear-gradient(45deg, #011dd2 10%,#b58fff,#5419ac);
     background-size: contain;
     color: transparent;
     background-clip: text;
