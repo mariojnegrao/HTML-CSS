@@ -16,6 +16,7 @@ h1{
     background-size: contain;
     color: transparent;
     background-clip: text;
+    background-attachment: fixed;
 }
 a:hover > img{
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.703);
@@ -43,4 +44,5 @@ div{
     margin: auto;
     width: 410px;
     overflow-x: scroll, hidden;
+    padding-bottom: 50px;
 }
