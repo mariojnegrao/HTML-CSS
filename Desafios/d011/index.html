@@ -18,7 +18,7 @@
             height: 90vh;
             position: relative;
         }
-        div > img{
+        div > picture{
             position: absolute;
             left: 50%;
             top: 50%;
@@ -28,7 +28,10 @@
 </head>
 <body>
     <div>
-        <img src="astronauta.png" alt="astronauta">
+        <picture>
+            <source media="(max-width:700px )" srcset="astronauta-300.png">
+            <img src="astronauta.png" alt="astronauta">
+        </picture>
     </div>
 </body>
 </html>
