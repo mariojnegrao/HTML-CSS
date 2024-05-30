@@ -34,10 +34,11 @@ div#home-bottom{
     position:absolute;
     width: 40px;
     height: 40px;
-    top: 84%;
+    top: 92%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-30%);
     border-radius: 50%;
+    background-color: red;
 }
 div#home-bottom a{
     display: block;
