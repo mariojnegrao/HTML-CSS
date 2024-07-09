@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 07</title>
+</head>
+<body>
+    <h1>Eemplo de Formulário</h1>
+    <form action="Cadastro.php" method="post">
+
+        <p>
+            <label for="iprov">Província: </label>
+            <select name="prov" id="iprov">
+                <option value="Luan">Luanda</option>
+                <option value="Malan">Malanje</option>
+                <option value="Benguela">Benguela</option>
+                <option value="Cab">Cabinda</option>
+                <option value="KN">Kwanza Norte</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstoption">
+            <datalist id="lstoption">
+                <option>Engenheiro</option>
+                <option>Médico</option>
+                <option>Professor</option>
+                <option>Programador</option>
+            </datalist>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
